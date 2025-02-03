@@ -27,3 +27,15 @@ stock--;
 }
 console.log('Stock is zero');
 
+// Task 4
+let responses = 0;
+do {
+    console.log('Response count: ${responses}');
+    responses++;
+
+} while (responses < 3);
+
+console.log('Collected 3 responss');
+
+
+
