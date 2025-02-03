@@ -53,5 +53,12 @@ for (let property in employee) {
 let products = ["PC", "Mouse", "Mousepad"];
 for (let product of products) {
     console.log('Product: ${product}');
-    
+
 }
+
+// Task 7
+let orders = [111, 112, 113];
+orders.forEach(function(orderId) {
+    console.log('Order ID: ${orderId}');
+
+});
