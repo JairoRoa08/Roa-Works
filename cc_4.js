@@ -8,3 +8,5 @@ if (purchaseAmount > 100) {
 let finalAmount = purchaseAmount - discount;
 console.log(`Final amount after discount: $${finalAmount.toFixed(2)}`);
 
+// Task 2
+
