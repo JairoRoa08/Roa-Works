@@ -17,4 +17,13 @@ for (let i =0; i< sales.length; i++) {
 
 console.log('Total Sales: $$(totalSales)');
 
+// Task 3
+
+let stock = 10;
+while (stock > 0) {
+    console.log('Stock value: ${stock}');
+
+stock--;
+}
+console.log('Stock is zero');
 
