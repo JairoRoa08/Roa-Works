@@ -37,5 +37,14 @@ do {
 
 console.log('Collected 3 responss');
 
+// Task 5
+let employee= {
+    name: "Jimmy",
+    position: "Technician",
+    salary: 50000
+};
 
+for (let property in employee) {
+    console.log('${property}: $employee[property]');
+}
 
